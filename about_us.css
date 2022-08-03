@@ -1,0 +1,252 @@
+
+ion-icon{
+    color:white;
+    font:x-large;
+    text-align: center;
+    line-height:  38px;
+    transition: ease;
+}
+.sign-in-btn button{
+        
+    border:2px solid #f68c1f;
+    background-color: #f68c1f;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 15px 25px;
+    color: #ffffff;
+    transition: ease;
+}
+.about_us_header{
+background-position:center;
+background-image:url("https://res.cloudinary.com/dgisuffs0/image/upload/v1627396918/about_f0oav9.jpg");
+height:500px;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.navbarr{
+    width: 100%;
+    height: 80px;
+    padding-top: 4rem;
+    
+    
+    /* background-color: red; */
+}
+.containerr{
+    width: 80%;
+    height: 100%;
+    /* background-color: blue; */
+    margin: 0px auto;
+}
+.nav-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.logo{
+    height:70px;
+    width:100px;
+    object-fit: cover;
+}
+.logo img{
+    height:100%;
+    width:100% ;
+    
+}
+.sidebar-logo{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.sidebar-logo img{
+    height:100px;
+    object-fit: cover;
+}
+.links{
+    display:flex;
+    font-size: larger;
+    font-weight: 400;
+    text-decoration: none;
+    
+    }
+    .links li a{
+        padding: 0px 20px;
+        list-style-type: none;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .navbar .search-box .input-box
+        {
+            position: absolute;
+            right: calc(100% - 40px);
+            top: 80px;
+            height: 60px;
+            width: 300px;
+            background: #002791;
+            border-radius: 6px;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.4s ease;
+        }
+
+.navbar .search-box i
+{
+    position: absolute;
+    height:100%;
+    width:100%;
+    line-height:  38px;
+    text-align: center;
+    font: size 22px;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: ease;
+}
+.showcase-flex{
+color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 0px;
+
+}
+
+.aboutt-tittle-brief{
+    margin:1rem 0;
+    padding:1rem 0;
+    width:80%;
+    color: #002791;
+    font-weight: 700;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    margin-left: 30px;
+}
+
+.about-flex-container{
+margin:0 auto;
+width:80%;
+}
+.upper-tittle{
+    color: #f68c1f;
+    font-weight: 700;
+}
+.left-content-about-info{
+    color: black;
+    text-align: center;
+    padding:1rem 0;
+    font-weight: 700;
+    
+}
+.Right-content-about-info{
+    height:100vh;
+}
+.Right-content-about-info > img{
+    height:100%;
+    width:90%;
+}
+.team-container{
+    background-color: #ffffff;
+    width:100%;
+    padding:2rem;
+    /* height:100vh; */
+}
+.team-tittle{
+    display: flex;
+    margin:0 auto;
+    flex-direction: column;
+    align-items: center;
+
+}
+.team-tittle > span{
+    color: #f68c1f;
+    text-transform: capitalize;
+}
+
+.team-tittle-12{
+    color: #002791;
+    font-weight: 700s;
+}
+
+.section-grid-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    grid-gap: 10px;
+    margin:2rem auto;
+
+}
+.team-card{
+    position: relative;
+    padding:1rem;
+    min-height:250px;
+    min-height:350px;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+.image-div img{
+    width: 222px;
+    height:244px;
+}
+ion-icon{
+    cursor: pointer;
+    color: #002791;
+    padding:5px 5px;
+    font-size:32px;
+}
+.footer{
+    /* height: 60vh; */
+    background-color:blue;
+    height:100%;
+    
+}
+
+.footer-logo{
+    height:100px;   
+    width:100%;
+    
+    text-align: center;
+    margin-bottom:50px;
+    
+}
+.footer-logo img{
+    height: 200px;
+    width:200px;
+
+    
+}
+.footer-links{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding:2rem 0;
+
+
+    
+}
+.links li{
+    list-style-type: none;
+}
+
+.footer-img{
+    color: white;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+ion-icon{
+    font-size:32px;
+    color: black;
+    
+}
+.copyright{
+    text-align: center;
+    color:white;
+}
+.end-name{
+    color: #f68c1f;
+}

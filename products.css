@@ -1,0 +1,198 @@
+    
+       *{
+        padding:0px;
+        margin:0px;
+        font-family: sans-serif; 
+        box-sizing: border-box;
+    }
+
+    .fa .fa-search{
+        color: red;
+    }
+    .sign-in-btn button{
+        
+        border:2px solid #f68c1f;
+        background-color: #f68c1f;
+        border-radius: 30px;
+        cursor: pointer;
+        padding: 15px 25px;
+        color: #ffffff;
+        transition: ease;
+    }
+    ion-icon{
+        color:white;
+        font:x-large;
+        text-align: center;
+        line-height:  38px;
+        transition: ease;
+        
+        
+
+    }
+    .header{
+            height: 446px;
+            background-image: url("https://res.cloudinary.com/dgisuffs0/image/upload/v1627396918/about_f0oav9.jpg");
+            background-size: cover   ;
+            background-repeat: no-repeat;
+            background-position: initial;
+            
+            
+
+            
+        }
+        .navbarr{
+            width: 100%;
+            height: 80px;
+            padding-top: 4rem;
+            
+            
+            /* background-color: red; */
+        }
+        .containerr{
+            width: 80%;
+            height: 100%;
+            /* background-color: blue; */
+            margin: 0px auto;
+        }
+        .nav-flex{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            
+        }
+        .logo{
+            height:70px;
+            width:100px;
+            object-fit: cover;
+        }
+        .logo img{
+            height:100%;
+            width:100% ;
+            
+        }
+        .sidebar-logo{
+            display:flex;
+            align-items:center;
+            justify-content: space-between;
+        }
+        .sidebar-logo img{
+            height:100px;
+            object-fit: cover;
+        }
+        .links{
+            display:flex;
+            font-size: larger;
+            font-weight: 400;
+            
+            
+            }
+            .links li a{
+                padding: 0px 20px;
+                list-style-type: none;
+                color: #ffffff;
+                text-decoration: none;
+
+            }
+            .links li{
+                list-style-type: none ;
+            }
+
+        .navbar .search-box .input-box
+        {
+            position: absolute;
+            right: calc(100% - 40px);
+            top: 80px;
+            height: 60px;
+            width: 300px;
+            background: #002791;
+            border-radius: 6px;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.4s ease;
+        }
+        .coverage-grid{
+            display: grid;
+            grid-template-columns: 2fr 5fr;
+            gap:3rem;
+
+        }
+        .coverage-container{
+            width:85%;
+            margin:0px auto;
+
+        }
+        .title{
+            border:1px solid rgba(0,0255,0.126);
+            padding:10px;
+            cursor: pointer;
+
+        }
+        .content{
+            display: none;
+
+        }
+        .content-active{
+            display:block;
+        }
+        content ul li{
+            margin: 15px 0px;
+            list-style-type: none;
+        }
+
+
+
+
+        .footer{
+            height: 60vh;
+            background-color:blue;
+            height:100%;
+            
+        }
+
+        .footer-logo{
+            height:100px;   
+            width:100%;
+            
+            text-align: center;
+            margin-bottom:50px;
+            
+        }
+        .footer-logo img{
+            height: 200px;
+            width:200px;
+   
+            
+        }
+        .footer-links{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            padding:2rem 0;
+
+
+            
+        }
+        .links li{
+            list-style-type: none;
+        }
+
+        .footer-img{
+            color: white;
+            text-align: center;
+            margin-bottom:10px;
+        }
+        
+        ion-icon{
+            font-size:32px;
+            color: black;
+            padding:0 10px;
+            
+        }
+        .copyright{
+            text-align: center;
+            color:white;
+        }
+        .end-name{
+            color: #f68c1f;
+        }
